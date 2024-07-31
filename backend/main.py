@@ -24,7 +24,8 @@ def get_items():
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173"
+        "http://localhost:5173",
+        "http://185.198.165.177"
     ],
     allow_credentials=True,
     allow_methods=["*"],
