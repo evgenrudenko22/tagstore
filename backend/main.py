@@ -13,7 +13,7 @@ def get_items():
             "name": "Capibara"
         },
         {
-            "id": 2,
+       a     "id": 2,
             "name": "Sniffer"
         }
     ]
@@ -25,7 +25,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://185.198.165.177"
+        "http://tagstore.pp.ua"
     ],
     allow_credentials=True,
     allow_methods=["*"],
