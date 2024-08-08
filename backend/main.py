@@ -25,7 +25,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://tagstore.pp.ua"
+        "http://tagstore.pp.ua",
+        "https://tagstore.pp.ua"
     ],
     allow_credentials=True,
     allow_methods=["*"],
