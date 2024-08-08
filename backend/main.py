@@ -13,7 +13,7 @@ def get_items():
             "name": "Capibara"
         },
         {
-       a     "id": 2,
+            "id": 2,
             "name": "Sniffer"
         }
     ]
