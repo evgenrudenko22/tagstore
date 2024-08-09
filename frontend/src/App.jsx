@@ -20,13 +20,11 @@ function App() {
 
   return (
     <>
-      <div className={styles.items}>
-        {items && items.map(item => {
+      {/* items && items.map(item => {
           return <span className={styles.item} key={item.id}>
             <span>{item.name}</span>
           </span>
-        })}
-      </div>
+      }) */}
     </>
   )
 }
